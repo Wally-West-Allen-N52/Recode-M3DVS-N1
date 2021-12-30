@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .container {
+            display: flex;
+            margin: 60px;
+            padding: 5 ;
+    
+        }
+        .block-normal {
+            overflow: none;
+            width: 200px;
+            height: 150px;
+
+            background-color: beige;
+            border: 4px solid green;
+        }
+
+        .block-visible {
+            overflow: visible;
+            width: 200px;
+            height: 150px;
+
+            background-color: beige;
+            border: 4px solid blue;
+        }
+
+        .block-hidden {
+            overflow: hidden;
+            width: 200px;
+            height: 150px;
+
+            background-color: beige;
+            border: 4px solid red;
+        }
+
+        .block-scroll {
+            overflow: scroll;
+            width: 200px;
+            height: 150px;
+
+            background-color: beige;
+            border: 4px solid violet;
+        }
+
+        .block-auto {
+            overflow: auto;
+            width: 200px;
+            height: 150px;
+
+            background-color: beige;
+            border: 4px solid purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block-normal">
+            <h1>Testo Qualquer Normal:</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem iusto reiciendis pariatur quis
+                minima
+                tenetur architecto nihil, nesciunt magni libero cupiditate consequuntur soluta ratione fugiat deserunt
+                possimus!
+                Totam, adipisci.
+                Impedit culpa dolores unde. Obcaecati doloribus expedita quos. Enim exercitationem dolorum itaque illum,
+                ullam
+                repellat doloremque sequi recusandae id minima rerum cum natus, iste nobis, ad quod quae asperiores
+                earum?
+                Illo placeat quo quos aliquid? Dicta architecto nobis exercitationem sed praesentium amet dolor mollitia
+                fugiat
+                ad! Voluptatum vel pariatur earum quis officiis laborum optio ipsa nostrum magni, expedita ipsum fugit?
+                Neque expedita facere dignissimos nemo beatae itaque inventore cupiditate! Praesentium beatae corporis,
+                itaque
+                id cupiditate dolor quae cumque saepe quis, nesciunt expedita quas modi, commodi sed quo ipsam veniam
+                quasi.
+                Suscipit quos, quibusdam iusto ipsa nulla illum incidunt amet nostrum veritatis non possimus blanditiis
+                exercitationem labore sapiente, culpa porro odio maxime necessitatibus delectus praesentium aut libero
+                atque
+                eaque accusantium! Veritatis.</p>
+        </div>
+        <div class="block-visible">
+            <h1>Testo Qualquer Visible:</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem iusto reiciendis pariatur quis
+                minima
+                tenetur architecto nihil, nesciunt magni libero cupiditate consequuntur soluta ratione fugiat deserunt
+                possimus!
+                Totam, adipisci.
+                Impedit culpa dolores unde. Obcaecati doloribus expedita quos. Enim exercitationem dolorum itaque illum,
+                ullam
+                repellat doloremque sequi recusandae id minima rerum cum natus, iste nobis, ad quod quae asperiores
+                earum?
+                Illo placeat quo quos aliquid? Dicta architecto nobis exercitationem sed praesentium amet dolor mollitia
+                fugiat
+                ad! Voluptatum vel pariatur earum quis officiis laborum optio ipsa nostrum magni, expedita ipsum fugit?
+                Neque expedita facere dignissimos nemo beatae itaque inventore cupiditate! Praesentium beatae corporis,
+                itaque
+                id cupiditate dolor quae cumque saepe quis, nesciunt expedita quas modi, commodi sed quo ipsam veniam
+                quasi.
+                Suscipit quos, quibusdam iusto ipsa nulla illum incidunt amet nostrum veritatis non possimus blanditiis
+                exercitationem labore sapiente, culpa porro odio maxime necessitatibus delectus praesentium aut libero
+                atque
+                eaque accusantium! Veritatis.</p>
+        </div>
+        <div class="block-hidden">
+            <h1>Testo Qualquer Heidden:</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem iusto reiciendis pariatur quis
+                minima
+                tenetur architecto nihil, nesciunt magni libero cupiditate consequuntur soluta ratione fugiat deserunt
+                possimus!
+                Totam, adipisci.
+                Impedit culpa dolores unde. Obcaecati doloribus expedita quos. Enim exercitationem dolorum itaque illum,
+                ullam
+                repellat doloremque sequi recusandae id minima rerum cum natus, iste nobis, ad quod quae asperiores
+                earum?
+                Illo placeat quo quos aliquid? Dicta architecto nobis exercitationem sed praesentium amet dolor mollitia
+                fugiat
+                ad! Voluptatum vel pariatur earum quis officiis laborum optio ipsa nostrum magni, expedita ipsum fugit?
+                Neque expedita facere dignissimos nemo beatae itaque inventore cupiditate! Praesentium beatae corporis,
+                itaque
+                id cupiditate dolor quae cumque saepe quis, nesciunt expedita quas modi, commodi sed quo ipsam veniam
+                quasi.
+                Suscipit quos, quibusdam iusto ipsa nulla illum incidunt amet nostrum veritatis non possimus blanditiis
+                exercitationem labore sapiente, culpa porro odio maxime necessitatibus delectus praesentium aut libero
+                atque
+                eaque accusantium! Veritatis.</p>
+        </div>
+        <div class="block-scroll">
+            <h1>Testo Qualquer Scroll:</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem iusto reiciendis pariatur quis
+                minima
+                tenetur architecto nihil, nesciunt magni libero cupiditate consequuntur soluta ratione fugiat deserunt
+                possimus!
+                Totam, adipisci.
+                Impedit culpa dolores unde. Obcaecati doloribus expedita quos. Enim exercitationem dolorum itaque illum,
+                ullam
+                repellat doloremque sequi recusandae id minima rerum cum natus, iste nobis, ad quod quae asperiores
+                earum?
+                Illo placeat quo quos aliquid? Dicta architecto nobis exercitationem sed praesentium amet dolor mollitia
+                fugiat
+                ad! Voluptatum vel pariatur earum quis officiis laborum optio ipsa nostrum magni, expedita ipsum fugit?
+                Neque expedita facere dignissimos nemo beatae itaque inventore cupiditate! Praesentium beatae corporis,
+                itaque
+                id cupiditate dolor quae cumque saepe quis, nesciunt expedita quas modi, commodi sed quo ipsam veniam
+                quasi.
+                Suscipit quos, quibusdam iusto ipsa nulla illum incidunt amet nostrum veritatis non possimus blanditiis
+                exercitationem labore sapiente, culpa porro odio maxime necessitatibus delectus praesentium aut libero
+                atque
+                eaque accusantium! Veritatis.</p>
+        </div>
+        <div class="block-auto">
+            <h1>Testo Qualquer Auto:</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem iusto reiciendis pariatur quis
+                minima
+                tenetur architecto nihil, nesciunt magni libero cupiditate consequuntur soluta ratione fugiat deserunt
+                possimus!
+                Totam, adipisci.
+                Impedit culpa dolores unde. Obcaecati doloribus expedita quos. Enim exercitationem dolorum itaque illum,
+                ullam
+                repellat doloremque sequi recusandae id minima rerum cum natus, iste nobis, ad quod quae asperiores
+                earum?
+                Illo placeat quo quos aliquid? Dicta architecto nobis exercitationem sed praesentium amet dolor mollitia
+                fugiat
+                ad! Voluptatum vel pariatur earum quis officiis laborum optio ipsa nostrum magni, expedita ipsum fugit?
+                Neque expedita facere dignissimos nemo beatae itaque inventore cupiditate! Praesentium beatae corporis,
+                itaque
+                id cupiditate dolor quae cumque saepe quis, nesciunt expedita quas modi, commodi sed quo ipsam veniam
+                quasi.
+                Suscipit quos, quibusdam iusto ipsa nulla illum incidunt amet nostrum veritatis non possimus blanditiis
+                exercitationem labore sapiente, culpa porro odio maxime necessitatibus delectus praesentium aut libero
+                atque
+                eaque accusantium! Veritatis.</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
